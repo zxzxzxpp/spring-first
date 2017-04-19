@@ -25,6 +25,7 @@ public class CustomMapArgumentResolver implements HandlerMethodArgumentResolver{
 		HttpServletRequest request = (HttpServletRequest) webRequest.getNativeRequest();
 		Enumeration<?> enumeration = request.getParameterNames();
 		
+		String 
 		String key = null;
 		String[] values = null;
 		while(enumeration.hasMoreElements()){
